@@ -10,3 +10,4 @@ df = df[df['amount_cad'] > 0]
 
 df_clean_total = df[df['amount_cad'] > 0]['amount_cad'].sum()
 
+print(df_clean_total)
